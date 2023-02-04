@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+#image-logo img {
+    width: 130px;
+    cursor: pointer;
+}
+#nav-menu ul {
+    display: flex;
+    list-style-type: none;
+}
+#nav-menu ul li {
+    padding: 20px;
+    font-size: 13px;
+    font-weight: 900;
+    color: #bebdbb;
+    cursor: pointer;
+}
+#button-submit button{
+    padding: 20px 25px;
+    border-radius: 28px;
+    font-size: 13px;
+    font-weight: 900;
+    background-color:  #ffd8db;
+    color: #6a58c4;
+    border: 0;
+    cursor: pointer;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+#nav-menu ul li:hover {
+    color: #282521;
+    text-decoration: underline #5343c0;
+    text-decoration-thickness: 3px;
+}
+#heading {
+    font-weight: 900;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+#text-sec {
+    margin-right: 10px;
+}
+main {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+span {
+    background-color: #5243c0;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+#paragraph {
+    line-height: 1.5;
+    color: #6b6867;
+}
+#arrow-button button {
+    padding: 20px 25px;
+    border-radius: 28px;
+    font-size: 13px;
+    font-weight: 900;
+    background-color:  #5243c0;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+}
+#arrow-button {
+    display: flex;
+    margin-top: 20px;
+}
+#arrow-button div {
+    margin: 5px;
+    cursor: pointer;
+}
+.check-box {
+    background-image: url('./img/drive-download-20220924T054142Z-001/tick-gray.png');
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.check-box:hover {
+    background-image: url('./img/drive-download-20220924T054142Z-001/tick-blue.png');
+}
+#user1-color {
+    background-color: #FED7DA;
+    height: 1px;
+    width: 15px;
+    border-radius: 30px;
+    padding: 8px;
+}
+.card {
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(248, 246, 246);
+    border-radius: 15px;
+    margin-top: 10px;
+}
+#user2-color {
+    background-color: #FD6534;
+    height: 1px;
+    width: 15px;
+    border-radius: 30px;
+    padding: 8px;
+}
+#user3-color {
+    background-color: #9ED095;
+    height: 1px;
+    width: 15px;
+    border-radius: 30px;
+    padding: 8px;
+}
+#user4-color {
+    background-color: #FFE4A0;
+    height: 1px;
+    width: 15px;
+    border-radius: 30px;
+    padding: 8px;
+}
+#card-name1 {
+    margin-right: 20px;
+}
+#card-name3 {
+    margin-right: 32px;
+}
+#card-name4 {
+    margin-right: 54px;
+}
+#card-section {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.card:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px gray;
+}
